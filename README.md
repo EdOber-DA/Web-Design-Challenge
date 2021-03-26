@@ -24,21 +24,21 @@ Web Design Challenge Assignment - Responsive design site using HTML, CSS, media 
 
   * [CSS Styles:](Pages/V4Style.css) - Bootstrap Version 4 style sheet for the site.  
 
-  * [Comparison Page](Pages/comparisons) - Shows all the measurement images on one page with clickable images.  Highlights which one is active in thumbnails.
+  * [Comparison Page](Pages/comparisons.html) - Shows all the measurement images on one page with clickable images.  Highlights which one is active in thumbnails.
 
-  * [Data Table Page](Pages/table) - Scrollable, responsive table with 10 columns of data.  
+  * [Data Table Page](Pages/table.html) - Scrollable, responsive table with 10 columns of data.  
 
-  * [Temperature Page](Pages/temperature) - Temperature vs latitude - image, observation info and links to the other measurement pages. 
+  * [Temperature Page](Pages/temperature.html) - Temperature vs latitude - image, observation info and links to the other measurement pages. 
 
-  * [Humidity Page](Pages/Humidity) - Humidity % vs latitude - image, observation info and links to the other measurement pages. 
+  * [Humidity Page](Pages/humidity.html) - Humidity % vs latitude - image, observation info and links to the other measurement pages. 
  
-  * [Cloudiness Page](Pages/cloud) - Cloudiness % vs latitude - image, observation info and links to the other measurement pages. 
+  * [Cloudiness Page](Pages/cloud.html) - Cloudiness % vs latitude - image, observation info and links to the other measurement pages. 
 
-  * [Wind Page](Pages/wind) - Wind Speed vs latitude - image, observation info and links to the other measurement pages. 
+  * [Wind Page](Pages/wind.html) - Wind Speed vs latitude - image, observation info and links to the other measurement pages. 
 
 
  
-* [Resources](resources)
+* [Resources](Resources)
   
   * [Temperature Chart Image](Resources/City_Lat_vs_Temp_Graph.png) - Temperature Image  
 
