@@ -1,0 +1,205 @@
+ body{
+    background-color: #ededed;
+}
+
+/* Controls the "Latitude" in top left*/
+ .navbar-brand {
+    background-color: #46afac;
+    padding: 15px 15px;
+    font-family: 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: xx-large ;
+}
+
+/* makes the "Latitude" font white */
+.navbar-light .navbar-brand {
+    color: white;
+}
+
+/* changes the navbar background color to white to contrast the brand color */
+/* NOTE: this is changed below in the @media query to match the brand colorr */
+nav.navbar {
+    background-color: white;
+}
+  
+/* Here we define some styles that will ONLY be applied at screen sizes below 991 pixels */
+  @media (max-width: 991px) {
+    nav.navbar-light {
+      background: #46afac;
+      padding-left: 0%;
+      padding-right: 0%;
+      padding-bottom: 0%;
+      }
+
+   /* puts some space to right of hamburger */   
+    button.navbar-toggler{
+    margin-right: 15px;
+    } 
+   /* puts white border around the hamburger */ 
+    .navbar-light .navbar-toggler{
+    border-color: #cff5f4;
+    }
+}
+
+/* this removes the border from around the drop down plot menu*/ 
+.dropdown-menu{
+   border-color:white;
+}
+
+/* makes the "Plots" darken on click in bar across */
+.dropdown-toggle.active, .dropdown-toggle:active {
+    color: black;
+    background-color:rgb(228, 224, 224);
+}
+
+
+/* this is the "magic" that makes the hamburger dropdown look like a separate bar" */
+.nav-item {
+background-color: white;
+width: 100%; 
+}
+/**********************************************************/
+/* ?? how format nav-linksto have grey highlight like plot*/
+/**********************************************************/
+.a.nav-link.active, .a.nav.link:active {
+    color: black;
+    background-color:rgb(228, 224, 224);
+}
+
+
+/* formats the nav items be bolder and spaced in the bar */
+.nav-link {
+    color: black;
+    max-width: 100%;
+    font-weight:700;
+    padding: 5px;
+}
+
+/* formats the dropdown items to be bigger and black */
+.dropdown-item{
+    color: black;
+    font-weight: 500; 
+}
+
+/* this makes the dropdowns for the 4 plots correctly as black font  on grey bar*/
+.dropdown-item.active, .dropdown-item:active {
+      color: black;
+      background-color: rgb(196, 192, 192);
+      font-weight: 500; 
+}
+
+h3{
+  color: #0BACA6;
+  font-family: 'Times New Roman', serif;
+  font-weight: bold;
+}
+
+/* controls spacing below the header */
+.content {
+    padding-top: 20px;
+    padding-bottom: 100px;
+    margin-top: auto;
+    overflow: hidden;
+}
+
+/* controls the spacing in the cards */
+.card{
+    background-color:white;
+    padding: 15px
+}
+
+/* sizes the image appropriately to allow text more room    */
+.img1{
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain; 
+    width: 40%;
+    height: 100%;
+}
+
+/* sizes the image appropriately to allow text more room    */
+.img2{
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain; 
+    width: 100%;
+    height: 100%;
+}
+
+
+/* floats the text around the images */
+.img-land{
+   float: left ;
+   margin: 0px 0px 20px 20px;
+}
+
+/* floats the text around the images */
+.img2-land{
+   margin: 0px 0px 10px 10px;
+ }
+
+
+
+/*  Not seeing that these controls are impacting anything*/
+
+/* .dropdown-toggle.show, .dropdown-toggle:show {
+    color: black;
+    background-color: #46afac;
+}
+*/
+
+/* do not think this does anything */
+/* .navbar-light button {
+  outline-color: grey ;
+}
+*/
+
+/* @media (max-width: 991.98px) { 
+    .main-graph-image {
+        width: 100%;
+        height: 100%;
+    } 
+}
+*/
+
+/*
+h1{
+    color: #0BACA6;
+}
+*/
+
+/*
+h5{
+    color:  #0BACA6;;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:800;    
+}
+*/
+
+/* this and p1 seem to have no affect */
+/*
+p{
+    font-weight: bold;
+    font-size: 150px;
+}
+*/
+
+/* .p1{
+    color: black;
+    float: right;
+    font-size: medium;
+    font-weight: normal;
+}
+*/
+
+/*
+.a{
+    width: 100%;
+    height: 100%;
+    padding: 4px;
+    box-sizing: border-box;
+    display: block;
+    object-fit: contain;
+
+}
+*/
