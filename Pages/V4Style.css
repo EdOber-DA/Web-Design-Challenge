@@ -189,6 +189,12 @@ h4{
     font-weight:500;  
 }
 
+.border-01{
+ border-style:solid;
+ border-width: 3px;
+ border-color:#46afac;   
+}
+
 /* this and p1 seem to have no affect */
 /*
 p{
