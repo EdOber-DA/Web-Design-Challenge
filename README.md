@@ -1,7 +1,7 @@
 # Web-Design-Challenge -  Web Visualization Dashboard (Latitude)
 Using HTML and CSS to create a dashboard to display previous analysis work.
 
-[Landing Page](https:/edober-da.github.io/Web-Design-Challenge/Pages/index.html)
+[Landing Page](https://edober-da.github.io/Web-Design-Challenge/Pages/index.html)
 
 # sqlalchemy-challenge - Surf's Up!
 Challenge Assignment using SqlAlchemy ORM Queries, Pandas, Graphing and back-end database
