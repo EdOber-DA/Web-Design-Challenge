@@ -137,6 +137,7 @@ h3{
    margin: 0px 0px 10px 10px;
  }
 
+ /* header formatting */
 h2{
     color:  #46afac;
     font-family: 'Times New Roman', serif;
@@ -158,8 +159,38 @@ h4{
     font-weight:500;  
 }
 
+/* add a border to the images when selected */
 .border-01{
  border-style:solid;
  border-width: 3px;
  border-color:#46afac;   
+}
+
+/* formatting for the data table */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    height: 50% ;
+}
+  
+th, td {
+    text-align: left;
+    padding: 8px;
+    font-family: 'Times New Roman', serif;
+}
+
+td{
+    font-size: 15px;
+    font-weight:800;
+}
+
+  
+th{
+    background-color: #46afac;
+    color: white;
+    font-size: 15px;
+    font-weight:800;
+}
+tr:nth-child(even) {
+    background-color: #e0fcfb;
 }
