@@ -48,3 +48,12 @@ Web Design Challenge Assignment - Responsive design site using HTML, CSS, media 
 	
   * [Wind Speed Chart Image](Resources/City_Lat_vs_Wind_Graph.png) - Wind Speed Image  
 
+
+* [Data](Data)
+  
+  * [Input file of City Data](Data/City_DataFrame_CSV_Output.csv) - csv file with 540 rows and 10 columns of data - input to the jupyter notebook.  
+
+  * [Jupyter Notebook](Data/Data_Table_Prep.ipynb) - Python code to take csv file and generate HTML table with 540 rows and 10 columns of data.
+
+  * [Table HTML](Data/table_output.html) - HTML output from the jupyter code run. Copied into the table.html page. 
+
