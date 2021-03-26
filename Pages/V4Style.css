@@ -58,10 +58,9 @@ nav.navbar {
 background-color: white;
 width: 100%; 
 }
-/**********************************************************/
-/* ?? how format nav-linksto have grey highlight like plot*/
-/**********************************************************/
-.a.nav-link.active, .a.nav.link:active {
+ 
+/* format nav-links to have grey highlight like plot */
+.nav-link.active, .nav-link:active {
     color: black;
     background-color:rgb(228, 224, 224);
 }
@@ -138,36 +137,6 @@ h3{
    margin: 0px 0px 10px 10px;
  }
 
-
-
-/*  Not seeing that these controls are impacting anything*/
-
-/* .dropdown-toggle.show, .dropdown-toggle:show {
-    color: black;
-    background-color: #46afac;
-}
-*/
-
-/* do not think this does anything */
-/* .navbar-light button {
-  outline-color: grey ;
-}
-*/
-
-/* @media (max-width: 991.98px) { 
-    .main-graph-image {
-        width: 100%;
-        height: 100%;
-    } 
-}
-*/
-
-/*
-h1{
-    color: #0BACA6;
-}
-*/
-
 h2{
     color:  #46afac;
     font-family: 'Times New Roman', serif;
@@ -194,31 +163,3 @@ h4{
  border-width: 3px;
  border-color:#46afac;   
 }
-
-/* this and p1 seem to have no affect */
-/*
-p{
-    font-weight: bold;
-    font-size: 150px;
-}
-*/
-
-/* .p1{
-    color: black;
-    float: right;
-    font-size: medium;
-    font-weight: normal;
-}
-*/
-
-/*
-.a{
-    width: 100%;
-    height: 100%;
-    padding: 4px;
-    box-sizing: border-box;
-    display: block;
-    object-fit: contain;
-
-}
-*/
